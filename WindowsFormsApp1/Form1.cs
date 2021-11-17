@@ -45,6 +45,7 @@ namespace WindowsFormsApp1
                     ded = Convert.ToInt32(reader[2]);
                 }
             }
+
             MessageBox.Show($"Возраст самого старшего студента - {ded}");
             reader.Close();
             conn.Close();
